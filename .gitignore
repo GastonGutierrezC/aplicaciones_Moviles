@@ -1,0 +1,69 @@
+# --- Gradle ---
+.gradle/
+build/
+*/build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# --- IntelliJ / Android Studio ---
+.idea/
+*.iml
+*.iws
+
+# --- MacOS ---
+.DS_Store
+
+# --- Log Files ---
+*.log
+
+# --- Android-specific ---
+*.apk
+*.ap_
+captures/
+output.json
+
+# --- Keystore files ---
+*.jks
+*.keystore
+
+# --- Kotlin/Java compilation ---
+*.class
+
+# --- Cache ---
+.cache/
+.cxx/
+.externalNativeBuild/
+
+# --- Miscellaneous ---
+*.swp
+*.swo
+
+# --- Firebase / Crashlytics ---
+google-services.json
+firebase-debug.log
+
+# --- OS Generated Files ---
+Thumbs.db
+Desktop.ini
+
+# --- Dependency Caches ---
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/compiler.xml
+
+# --- Jetpack Compose Compiler Plugin ---
+.kotlinc/
+
+# --- Virtual Device Data ---
+.emulator/
+
+# --- NDK build files ---
+obj/
+
+# --- Test results ---
+test-results/
