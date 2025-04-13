@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_fragment_map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Mapa -->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- LinearLayout para los botones, ajustado para que esté al fondo y alineado a la derecha -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="1010dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:gravity="bottom|end"
+        android:orientation="vertical"
+        android:padding="56dp"> <!-- Este es el margen que mueve los botones más abajo -->
+
+        <!-- Botón Terminar recorrido -->
+
+        <!-- Botón Ver Lista de Recorridos -->
+        <Button
+            android:id="@+id/btnTerminarRecorrido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF5722"
+            android:text="Terminar recorrido"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnVerListaRecorridos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2196F3"
+            android:text="Ver Lista de Recorridos"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</FrameLayout>
